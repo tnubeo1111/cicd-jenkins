@@ -1,2 +1,2 @@
 # cicd-jenkins
-build cicd system in jenkins - test
+build cicd system in jenkins
