@@ -15,5 +15,11 @@ pipeline {
                 }
             }
         }
+
+        stage ('Email') {
+            steps {
+                mail bcc: '', body: 'Build Success', cc: '', from: '', replyTo: '', subject: 'Build Success', to: 'tha.lt1199@sinhvien.hoasen.edu.vn'
+            }
+        }
     }
 }
